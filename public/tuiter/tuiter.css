@@ -1,0 +1,223 @@
+/*Explore Page Styling*/
+.wd-page-background{
+    background-color: black;
+}
+
+.wd-margin-left {
+    margin-left: 16px;
+}
+
+.wd-rounded-corners-search {
+    border-radius: 50px;
+    border-color: #282c34;
+}
+
+.wd-search-dimensions{
+    background-color:#282c34;
+    width: 87% ;
+    height: 35px;
+    font-size: medium;
+    color: white;
+    padding-left : 50px;
+}
+
+.wd-position-search{
+    position: absolute;
+    width: 100%;
+    top:2px;
+}
+
+.wd-mag-glass{
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    font-size: 25px;
+    color: grey;
+}
+
+.wd-position-gear{
+    position: absolute;
+    top: -5px;
+    right: 12px;
+}
+
+.wd-gear-styler{
+    text-decoration: none;
+    color:dodgerblue;
+    font-size:38px;
+}
+
+.wd-position-relative{
+    position: relative;
+}
+
+.wd-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: "Arial", serif;
+}
+
+.wd-divA-border{
+    border-left: 0.2px solid rgb(47,51,54);
+    border-right: 0.2px solid rgb(47,51,54);
+}
+
+
+.wd-tab {
+    cursor: pointer;
+    padding: 16px ;
+    color: rgb(110, 118, 125);
+    border-bottom: 2px solid transparent;
+}
+
+.wd-tab.is-tab-selected {
+    padding: 16px;
+    color: rgb(29,161,242);
+    border-bottom-color: rgb(29,161,242);
+}
+
+.wd-tab-links{
+    text-decoration: none;
+    color: rgb(29,161,242);
+}
+
+.wd-tab-links-nonselected{
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+}
+
+.wd-tabs-position{
+    position: relative;
+    top: 45px;
+}
+
+.wd-tabs-border {
+    border-bottom: 3px solid rgb(110, 118, 125);
+}
+
+.wd-hr-position{
+    position: relative;
+    top: 39px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-tuits-position{
+    position: relative;
+    top: 60px;
+    bottom: 100px;
+    border: 0.2px solid rgb(47,51,54);
+}
+
+.wd-tuit-title{
+    color: white;
+    margin-top: -10px;
+    font-size: large;
+    font-weight: bolder;
+    font-family: Calibri;
+}
+
+.wd-tuit-title-without-author{
+    color: white;
+    margin-top: 0px;
+    font-size: large;
+    font-weight: bolder;
+    font-family: Calibri;
+}
+
+.wd-tuit-first{
+    color: rgb(110, 118, 125);
+    font-family: Calibri;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.wd-tuit-other{
+    color: grey;
+    font-family: Calibri;
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+.wd-tuit-with-author{
+    color: grey;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.wd-no-tuit{
+    margin-bottom: 80px;
+}
+
+.wd-times-icon{
+    position: absolute;
+    top: 8px;
+    font-size: 13px;
+    color: white;
+    font-weight: bolder;
+}
+
+.wd-tick-icon{
+    position: absolute;
+    top: 8px;
+    font-size: 11px;
+    color: white;
+    font-weight: bolder;
+}
+
+.wd-circle-icon{
+    position: absolute;
+    top: 12px;
+    font-size: 14px;
+    color: white;
+    font-weight: bolder;
+}
+
+.wd-three-dots{
+    color: grey;
+    font-size: 25px;
+    float : right;
+    padding-right: 60px;
+
+}
+
+.wd-blue-icon{
+    position: absolute;
+    top: 9px;
+    padding-right: 15px;
+    font-size: 10px;
+}
+
+.wd-padding-left20{
+    position: absolute;
+    top: 8px;
+    padding-left: 10px;
+}
+
+.wd-padding-left10{
+    position: absolute;
+    top: 8px;
+    padding-left: 14px;
+}
+
+.wd-padding-left30{
+    padding-left: 30px;
+}
+
+.wd-tuit-author{
+    color: white;
+    padding-left: 16px;
+    font-family: Calibri;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.wd-image-style{
+    position: absolute;
+    top: 5px;
+    right: 16px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
