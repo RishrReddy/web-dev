@@ -1,0 +1,90 @@
+.wd-search {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-mag-glass {
+    padding-left: 15px;
+    padding-top: 6px;
+}
+
+.form-control{
+    border: none;
+}
+
+.wd-image-box{
+    width: 100%;
+    height: 332px;
+    /*text-align: center;*/
+    color: white;
+}
+
+
+.wd-tuit-topic{
+    color: grey;
+}
+
+.wd-tuit-title{
+    font-weight: bold;
+}
+
+
+.wd-image-explore{
+    width:100%;
+    height:76%
+}
+
+.wd-tuit-explore{
+    width:80%;
+    height:80%
+}
+
+.fa-stack{
+    width: 0em;
+}
+
+/*/////////////////////// */
+.wd-dark-search{
+    background-color: rgb(47, 47, 53);
+}
+
+.wd-bottom-border{
+    border-bottom: 19px;
+    border-bottom-color: #2d5cf6;
+}
+
+.wd-bg-grey{
+    background-color: rgb(47, 47, 53);
+
+}
+
+.wd-grey-border{
+    border: 2px solid #2d2b2b !important;
+}
+
+.wd-image-border{
+    border-left:2px solid #2d2b2b !important ;
+    border-top:2px solid #2d2b2b !important;
+    border-right: 2px solid #2d2b2b !important;
+}
+.wd-image-title{
+    border-left:2px solid #2d2b2b !important ;
+    border-top:2px solid #2d2b2b !important;
+    border-right: 2px solid #2d2b2b !important;
+}
+
+.wd-black-bg{
+    background-color: black;
+}
+
+
+nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white;
+    background-color: transparent;
+    border : 1px solid transparent;
+    border-bottom: 5px solid dodgerblue;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid transparent;
+}
