@@ -108,3 +108,7 @@
 .wd-large-font{
     font-size: xxx-large;
 }
+
+.wd-max-width{
+    max-width: 100%;
+}

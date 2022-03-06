@@ -10,7 +10,7 @@ const WhoToFollowListItem  = (who) => {
                             <p class=" wd-tuit-topic">@${who.handle} </p>
                         </div>
                         <div class="col-3">
-                            <button type="button" class="btn btn-primary rounded-pill mt-2"><strong> Follow </strong></button>
+                            <button type="button" class="btn btn-primary rounded-pill mt-2 wd-max-width"><strong> Follow </strong></button>
                         </div>
              </div>
     `);
