@@ -1,3 +1,4 @@
+import "../ExploreScreen/explore.css";
 import React from "react"
 const PostItem  = ({
     posts = {
@@ -20,7 +21,7 @@ const PostItem  = ({
         <div>
             <div className="row mb-2 border-bottom">
                 <div className="col-1 mt-2">
-                    <img src={posts.user_image} className="wd-follow-images rounded-circle"/>
+                    <img src={posts.user_image} className="wd-follow-images rounded-circle" alt="img"/>
                 </div>
                 <div className="col-11 mt-1 px-5 ">
                     <div className="row">
@@ -37,11 +38,11 @@ const PostItem  = ({
                     </div>
                     <div className="text-white">
                         {posts.caption}
-                        <a href="#">{posts.caption_link}</a>
+                        <a href="tuiter/home">{posts.caption_link}</a>
                     </div>
                     <div className="wd-image-container mt-2">
                         <div>
-                            <img className="wd-bm-image" src={posts.image}/>
+                            <img className="wd-bm-image" src={posts.image} alt="img"/>
                         </div>
                         <div className="wd-border-radius mt-2 p-2 text-white">
                             {posts.description_title}
@@ -49,15 +50,15 @@ const PostItem  = ({
                                 {posts.description}
                             </div>
                             <div>
-                                <span className="text-secondary"><i class="fas fa-link"></i> {posts.link}</span>
+                                <span className="text-secondary"><i class="fas fa-link"/> {posts.link}</span>
                             </div>
                         </div>
                     </div>
                     <div className="wd-icons ms-3 mt-2 ">
-                        <a href="#" className="wd-icon-text"><i className="icon-comment-alt icon far fa-comment" aria-hidden="true"><span className="wd-icon-text">{posts.comments}</span></i></a>
-                        <a href="#" className="wd-icon-text"><i className="icon-random icon fas fa-retweet" aria-hidden="true"><span className="wd-icon-text">{posts.retuit}</span></i> </a>
-                        <a href="#" className="wd-icon-text"><i className="icon-heart icon red fas fa-heart " aria-hidden="true"><span className="wd-icon-text">{posts.likes}</span></i></a>
-                        <a href="#" className="wd-icon-text"><i className="icon-upload-alt icon fas fa-upload" aria-hidden="true"></i></a>
+                        <a href="/tuiter/home" className="wd-icon-text"><i className="icon-comment-alt icon far fa-comment" aria-hidden="true"><span className="wd-icon-text">{posts.comments}</span></i></a>
+                        <a href="/tuiter/home" className="wd-icon-text"><i className="icon-random icon fas fa-retweet" aria-hidden="true"><span className="wd-icon-text">{posts.retuit}</span></i> </a>
+                        <a href="/tuiter/home" className="wd-icon-text"><i className="icon-heart icon red fas fa-heart " aria-hidden="true"><span className="wd-icon-text">{posts.likes}</span></i></a>
+                        <a href="/tuiter/home" className="wd-icon-text"><i className="icon-upload-alt icon fas fa-upload" aria-hidden="true"/></a>
                     </div>
                 </div>
             </div>

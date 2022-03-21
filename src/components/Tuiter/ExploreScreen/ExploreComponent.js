@@ -40,7 +40,7 @@ const ExploreComponent = () => {
 
 
             <div className="wd-image-box mt-2">
-                <img src={'/images/starship.jpg'} className="wd-image-explore" />
+                <img src={'/images/starship.jpg'} className="wd-image-explore"  alt="img"/>
                     <div className={"bottom-left-text wd-large-font"}>SpaceX's Starship</div>
             </div>
             <div className="wd-bg-tuit">
