@@ -37,7 +37,7 @@ const ExploreComponent = () => {
            <!-- image with overlaid text -->
            
            <div class="wd-image-box mt-2">
-                <img src="../images/starship.jpg" class="wd-image-explore">
+                <img src="../../images/starship.jpg" class="wd-image-explore">
                 <div class="bottom-left-text wd-large-font">SpaceX's Starship</div>
             </div>
            <div class="wd-bg-tuit">
