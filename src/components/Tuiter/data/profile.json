@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "1234",
+    "firstName": "Rishita",
+    "lastName": "Reddy",
+    "handle": "rishR",
+    "profilePicture": "/images/RishFace.jpg",
+    "bannerPicture": "/images/coverPicProfile.png",
+    "bio": "Cloud Computing and DevOps enthusiast. Enjoys Tex Talks and Painting. Stepping into the world of Web Development.\nStay tuned for amazing websites to come.",
+    "location": "Boston, MA",
+    "dataOfBirth": "12/28/1997",
+    "website": "linkedin.com/in/",
+    "dateJoined": "11/2019",
+    "followingCount": 143,
+    "followersCount": 720,
+    "tweets": "111,572"
+  }
+]
