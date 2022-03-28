@@ -1,18 +1,22 @@
 import React from "react";
+import ReduxExamples from "./redux-examples";
 import {Link} from "react-router-dom";
-
-const HelloWorld = () => {
+const Assignment7 = () => {
     return(
         <>
-            <h1>Hello World!</h1>
+            <Link to="/">
+                Home
+            </Link> |
             <Link to="/labs">
                 Labs
             </Link> |
             <Link to="/tuiter/">
                 Tuiter
             </Link>
-        </>
-)
-};
 
-export default HelloWorld;
+            <ReduxExamples/>
+        </>
+    )
+}
+
+export default Assignment7;

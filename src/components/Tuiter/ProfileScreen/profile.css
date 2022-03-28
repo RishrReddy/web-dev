@@ -1,0 +1,86 @@
+.wd-absolute {
+    position: relative;
+}
+
+.wd-tweet-banner-position {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.wd-textarea-width{
+    width: 100%;
+}
+.wd-camera-banner {
+    position: absolute;
+    top: 25%;
+    left: 42%;
+}
+
+.wd-camera-profile {
+    position: absolute;
+    top: 43%;
+    left: 28%;
+}
+
+.wd-xmark-banner {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+
+.wd-tweet-banner-position-edit {
+    /*position: relative;*/
+    width: 100%;
+    height: 250px;
+    left: 10px;
+    opacity: 0.5;
+}
+
+.wd-tweet-profile-position-edit {
+    position: relative;
+    border-radius: 50%;
+    width: 140px;
+    border: 5px solid black;
+    top: -50px;
+    left: 20px;
+    opacity:0.8;
+}
+
+.wd-tweet-profile-position {
+    position: relative;
+    border-radius: 50%;
+    width: 140px;
+    border: 5px solid black;
+    top: -50px;
+    left: 20px;
+}
+
+.wd-greyed-text{
+    color: #83878f;
+}
+
+.wd-text-decor-none{
+    text-decoration: none;
+}
+.wd-edit-profile{
+    border: 1px solid #5b5959 !important;
+    display: inline-block;
+    align-self: center;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+    padding: 0.375rem 1rem;
+    background-color: transparent;
+}
+
+
+.wd-edit-profile-heading{
+    font-size: large;
+}
+.wd-grey-border{
+    border: 1px solid #494949;
+    border-radius: 10px;
+    padding-left: 5px;
+}

@@ -16,7 +16,7 @@ const WhoToFollowListItem  = (
                         </div>
                         <div className="col-7 ">
                             <span className="wd-tuit-title">{who.userName} </span>
-                            <span><i className="fa-solid fa-circle-check fa-1x"></i></span>
+                            <span><i className="fa-solid fa-circle-check fa-1x"/></span>
                             <p className=" wd-tuit-topic">@{who.handle} </p>
                         </div>
                         <div className="col-3">

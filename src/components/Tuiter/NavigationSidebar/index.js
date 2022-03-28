@@ -1,22 +1,23 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 
 const NavigationSidebar = (
                             {
-                                 active = 'explore'
+                                 active = 'home'
                              }
+
                            ) => {
+
+    const path = useLocation().pathname.split("/")
+    const activeScreen = path[path.length - 1]
     return(
             <div>
                 <div className="list-group">
                     <Link to="/"
                           className="list-group-item list-group-item-action">
-
                             <i className="fab fa-twitter"></i>
-
                     </Link>
-
-                    <Link to="/tuiter/home" className={`list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}`}>
+                    <Link to="/tuiter" className={`list-group-item list-group-item-action ${activeScreen === 'tuiter' || activeScreen === '' ? 'active' : ''}`}>
                             <div className="row">
                                 <div className="col-2">
                                     <i className="fa fa-house-chimney "> </i>
@@ -29,7 +30,7 @@ const NavigationSidebar = (
                             </div>
                     </Link>
 
-                    <Link to="/tuiter/explore" className={`list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}`}>
+                    <Link to="/tuiter/explore" className={`list-group-item list-group-item-action ${activeScreen === 'explore' ? 'active' : ''}`}>
                         <div className="row">
                             <div className="col-2">
                                 <i className="fa fa-hashtag fa-1x "> </i>
@@ -82,16 +83,22 @@ const NavigationSidebar = (
                             </div>
                         </div>
                     </li>
-                    <li className="list-group-item list-group-item-action">
-                        <div className="row">
-                            <div className="col-2">
-                                <i className="fa fa-user fa-1x"> </i>
-                            </div>
-                            <div className="col-10">
-                                <a href="../../../../public/tuiter/profile.html" className="text-dark text-decoration-none d-none d-sm-none d-md-none d-lg-none d-xl-block"><strong>Profile</strong></a>
-                            </div>
+
+
+
+                <Link to="/tuiter/profile" className={`list-group-item list-group-item-action ${activeScreen === 'profile' ? 'active' : ''}`}>
+                    <div className="row">
+                        <div className="col-2">
+                            <i className="fa fa-user fa-1x "> </i>
                         </div>
-                    </li>
+                        <div className="col-10 text-dark text-decoration-none d-none d-sm-none d-md-none d-lg-none d-xl-block">
+                            <strong>
+                                Profile
+                            </strong>
+                        </div>
+                    </div>
+                </Link>
+
                     <li className="list-group-item list-group-item-action">
                         <div className="row ">
                             <div className="col-2 mx=0">
