@@ -40,7 +40,7 @@ function App() {
                                  exact={true}
                                  element={<ExploreScreen/>}/>
                           <Route path="profile" element={<ProfileScreen/>}/>
-                          <Route path="profile/editprofile" element={<EditProfileScreen/>}/>
+                          <Route path="editprofile" element={<EditProfileScreen/>}/>
                       </Route>
                   </Route>
               </Routes>

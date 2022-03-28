@@ -19,7 +19,7 @@ const ProfileScreen = ({profile}) => {
                 <img className=" wd-tweet-banner-position mt-2" src={profile.bannerPicture} alt={"banner"}/>
                 <img className="wd-tweet-profile-position" src={profile.profilePicture} alt="profile"/>
                 <button className=" mt-2 wd-edit-profile rounded-pill float-end ">
-                    <a href="/tuiter/profile/editprofile">
+                    <a href="/tuiter/editprofile">
                         <span className="fw-bold text-white wd-text-decor-none" >Edit profile</span>
                     </a>
                 </button>
