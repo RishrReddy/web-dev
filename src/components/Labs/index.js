@@ -22,8 +22,10 @@ const Labs = () => {
             </Link> |
             <Link to="/labs/a7">
                 Assignment 7
+            </Link> |
+            <Link to="/labs/a8">
+                Assignment 8
             </Link>
-
         </>
     )
 };

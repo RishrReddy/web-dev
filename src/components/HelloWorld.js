@@ -6,7 +6,7 @@ const HelloWorld = () => {
         <>
             <h1>Hello World!</h1>
             <Link to="/labs">
-                Labs
+                REACT JS Labs
             </Link> |
             <Link to="/tuiter/">
                 Tuiter

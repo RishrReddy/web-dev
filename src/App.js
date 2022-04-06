@@ -12,6 +12,7 @@ import ProfileScreen from "./components/Tuiter/ProfileScreen";
 import EditProfileScreen from "./components/Tuiter/ProfileScreen/EditProfileScreen";
 import Assignment6 from "./components/Labs/assignment6";
 import Assignment7 from "./components/Labs/assignment7";
+import Assignment8 from "./components/Labs/Assignment8";
 
 
 function App() {
@@ -33,12 +34,16 @@ function App() {
                       <Route path="labs/a7"
                              exact={true}
                              element={<Assignment7/>}/>
+                      <Route path="labs/a8"
+                             exact={true}
+                             element={<Assignment8/>}/>
                       <Route path="tuiter"
                              element={<Tuiter/>}>
                           <Route index element={<HomeScreen/>}/>
                           <Route path="explore"
                                  exact={true}
                                  element={<ExploreScreen/>}/>
+                          <Route path="home" element={<HomeScreen/>}/>
                           <Route path="profile" element={<ProfileScreen/>}/>
                           <Route path="editprofile" element={<EditProfileScreen/>}/>
                       </Route>
